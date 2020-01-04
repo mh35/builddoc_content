@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       -
-        image: mh35jp/builddoc:v-0.1.0
+        image: mh35jp/builddoc:v-0.1.1
     steps:
       - checkout
       -
