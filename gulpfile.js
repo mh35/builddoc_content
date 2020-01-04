@@ -70,7 +70,7 @@ gulp.task('buildall', gulp.parallel('sass', 'imgcopy', 'builddoc'));
 gulp.task('buildpdf', function(cb) {
     return gulp.src('./dst').pipe(exec(
         'vivliostyle build -o ./dst/output.pdf -s JIS-B5 ' +
-        './dst/index.html', {
+        '--no-sandbox ./dst/index.html', {
         continueOnError: false,
         pipeStdout: false
     })).pipe(exec.reporter({
