@@ -1,0 +1,19 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      -
+        image: mh35jp/builddoc:v-0.1.0
+    steps:
+      - checkout
+      -
+        run:
+          command: npm install
+          name: Installing npm modules
+      -
+        run:
+          command: gulp
+          name: Building document
+      -
+        store_artifacts:
+          path: dst/output.pdf
