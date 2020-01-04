@@ -17,10 +17,11 @@
   },
   "homepage": "https://github.com/mh35/builddoc_content#readme",
   "devDependencies": {
+    "child_process": "^1.0.2",
     "gulp": "^4.0.2",
     "gulp-connect": "^5.7.0",
+    "gulp-exec": "^4.0.0",
     "gulp-sass": "^4.0.2",
-    "gulp-shell": "^0.7.1",
     "node-sass": "^4.13.0"
   }
 }
