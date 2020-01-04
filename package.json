@@ -1,0 +1,26 @@
+{
+  "name": "builddoc",
+  "version": "0.0.1",
+  "description": "Build book system using Vivliostyle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mh35/builddoc_content.git"
+  },
+  "author": "MH35",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mh35/builddoc_content/issues"
+  },
+  "homepage": "https://github.com/mh35/builddoc_content#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-shell": "^0.7.1",
+    "node-sass": "^4.13.0"
+  }
+}
