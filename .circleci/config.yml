@@ -8,6 +8,10 @@ jobs:
       - checkout
       -
         run:
+          command: git submodule update --init
+          name: Initializing/updating submodules
+      -
+        run:
           command: npm install
           name: Installing npm modules
       -
