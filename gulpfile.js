@@ -55,7 +55,7 @@ gulp.task('builddoc:watch', function (cb) {
 
 gulp.task('preview', function(cb) {
     return gulp.src('./dst').pipe(exec(
-        'vivliostyle preview -r ./dst', {
+        'vivliostyle preview --no-sandbox ./dst/index.html', {
         continueOnError: false,
         pipeStdout: false
     })).pipe(exec.reporter({
