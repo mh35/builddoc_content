@@ -1,3 +1,12 @@
 @charset "utf-8";
 
 @import 'base/pandoc';
+@import 'base/fonts';
+
+* {
+    font-family: 'Noto Serif CJK JP', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Sans CJK JP', sans-serif;
+}
