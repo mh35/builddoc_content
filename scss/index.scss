@@ -3,7 +3,7 @@
 @import 'base/pandoc';
 @import 'base/fonts';
 
-html html * {
+html, html * {
     font-family: 'Noto Serif CJK JP', serif;
 }
 
