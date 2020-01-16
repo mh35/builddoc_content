@@ -75,3 +75,27 @@
     font-weight: 900;
     src: url('../fonts/noto-cjk/NotoSerifCJKjp-Black.otf');
 }
+
+@font-face {
+    font-family: 'IPAGothic';
+    font-weight: 400;
+    src: url('../fonts/IPAfont00303/ipag.ttf');
+}
+
+@font-face {
+    font-family: 'IPAPGothic';
+    font-weight: 400;
+    src: url('../fonts/IPAfont00303/ipagp.ttf');
+}
+
+@font-face {
+    font-family: 'IPAMincho';
+    font-weight: 400;
+    src: url('../fonts/IPAfont00303/ipam.ttf');
+}
+
+@font-face {
+    font-family: 'IPAPMincho';
+    font-weight: 400;
+    src: url('../fonts/IPAfont00303/ipamp.ttf');
+}
