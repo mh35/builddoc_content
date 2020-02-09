@@ -55,7 +55,7 @@ gulp.task('builddoc:watch', function (cb) {
 
 gulp.task('preview', function(cb) {
     return gulp.src('./dst').pipe(exec(
-        'vivliostyle preview --no-sandbox ./dst/index.html', {
+        'vivliostyle preview --no-sandbox ./dst/index.html -r .', {
         continueOnError: false,
         pipeStdout: false
     })).pipe(exec.reporter({
@@ -69,7 +69,7 @@ gulp.task('buildall', gulp.parallel('sass', 'imgcopy', 'builddoc'));
 
 gulp.task('buildpdf', function(cb) {
     return gulp.src('./dst').pipe(exec(
-        'vivliostyle build -o ./dst/output.pdf -s JIS-B5 ' +
+        'vivliostyle build -o ./dst/output.pdf -s JIS-B5 -r . ' +
         '--no-sandbox ./dst/index.html', {
         continueOnError: false,
         pipeStdout: false
