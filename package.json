@@ -22,7 +22,7 @@
     "gulp-connect": "^5.7.0",
     "gulp-exec": "^4.0.0",
     "gulp-sass": "^4.0.2",
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   },
   "dependencies": {
     "@vivliostyle/cli": "^2.0.0-pre.1"
