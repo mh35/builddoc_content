@@ -25,6 +25,6 @@
     "node-sass": "^9.0.0"
   },
   "dependencies": {
-    "@vivliostyle/cli": "^4.5.0"
+    "@vivliostyle/cli": "^4.12.4"
   }
 }
