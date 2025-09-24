@@ -4,6 +4,9 @@ jobs:
     docker:
       -
         image: mh35jp/builddoc:v-0.1.2
+        auth:
+          username: $DOCKER_USERNAME
+          password: $DOCKER_TOKEN
     steps:
       - checkout
       -
